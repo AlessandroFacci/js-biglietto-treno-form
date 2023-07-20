@@ -18,5 +18,84 @@
     <!-- title -->
     <title>Biglietto del treno</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        </div>
+        <div class="card-body">
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"
+              >Nome e Cognome</label
+            >
+            <input
+              type="text"
+              class="form-control w-25"
+              id="exampleFormControlInput1"
+              placeholder="Nome e Cognome"
+            />
+          </div>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"
+              >Km da percorrere</label
+            >
+            <input
+              type="text"
+              class="form-control w-25"
+              id="exampleFormControlInput1"
+              placeholder="Numero Km"
+            />
+          </div>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"
+              >Fascia d'età</label
+            >
+            <select
+              class="form-select w-25"
+              aria-label="Default select example"
+            >
+              <option selected>...</option>
+              <option value="1">Minorenne</option>
+              <option value="2">Maggiorenne</option>
+              <option value="3">Over 65</option>
+            </select>
+          </div>
+          <a href="#" class="btn btn-primary">Genera</a>
+          <a href="#" class="btn btn-primary">Annulla</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>IL TUO BIGLIETTO</h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-4 bgcolor-black">
+              <h3>NOME PASSEGGERO</h3>
+              <p></p>
+            </div>
+            <div class="col-8 d-flex">
+              <div class="col-3">
+                <h5>Offerta</h5>
+                <p>Biglietto Standard</p>
+              </div>
+              <div class="col-3">
+                <h5>Carrozza</h5>
+                <p>5</p>
+              </div>
+              <div class="col-3">
+                <h5>Codice CP</h5>
+                <p>92911</p>
+              </div>
+              <div class="col-3">
+                <h5>Costo biglietto</h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
