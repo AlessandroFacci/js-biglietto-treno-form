@@ -27,6 +27,7 @@ screenshot.png
 
 ## PROCEDIMENTO
 
+- chiedo il nome all'utente
 - chiedo quanti chilometri vuole percorrere l'utente
 - chiedo l'età del passeggero
 - definisco il prezzo base del biglietto al kilometro
