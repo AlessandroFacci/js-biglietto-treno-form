@@ -35,13 +35,11 @@
             />
           </div>
           <div>
-            <label for="exampleFormControlInput1" class="form-label"
-              >Km da percorrere</label
-            >
+            <label for="input-km" class="form-label">Km da percorrere</label>
             <input
               type="text"
               class="form-control w-25"
-              id="exampleFormControlInput1"
+              id="input-km"
               placeholder="Numero Km"
             />
           </div>
@@ -50,13 +48,14 @@
               >Fascia d'età</label
             >
             <select
+              id="age"
               class="form-select w-25"
               aria-label="Default select example"
             >
               <option selected>...</option>
-              <option value="1">Minorenne</option>
-              <option value="2">Maggiorenne</option>
-              <option value="3">Over 65</option>
+              <option value="kid">Minorenne</option>
+              <option value="adult">Maggiorenne</option>
+              <option value="over65">Over 65</option>
             </select>
           </div>
           <a id="generat-btn" href="#" class="btn btn-primary">Genera</a>
@@ -88,7 +87,7 @@
               </div>
               <div class="col-3">
                 <h5>Costo biglietto</h5>
-                <p></p>
+                <p id="total-price"></p>
               </div>
             </div>
           </div>
